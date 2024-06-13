@@ -1,10 +1,14 @@
-import GuestList from "./components/GuestList";
+import GuestDisplay from "./components/Form/GuestDisplay"
+// import GuestList from "./components/List/GuestList"
+
+
+
 function App() {
 
 
   return (
     <>
-     <GuestList />
+      <GuestDisplay />
     </>
   )
 }

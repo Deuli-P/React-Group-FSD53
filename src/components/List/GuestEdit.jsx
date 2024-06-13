@@ -1,6 +1,6 @@
 import { toast } from "react-toastify";
-import Cancel from "./Button/Cancel";
-import Confirm from "./Button/Confirm";
+import Cancel from "../Button/Cancel";
+import Confirm from "../Button/Confirm";
 import { useState } from "react";
 
 const GuestEdit = ({ onEdit, onCancel, name }) => {

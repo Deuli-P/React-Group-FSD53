@@ -86,3 +86,27 @@ ul{
 }
 
 
+
+
+
+/* ///// TABLEAU /////////// */
+
+
+.card-container{
+  width: 240px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  background: rgb(169, 159, 159);
+  padding: 10px;
+  color: white;
+  
+}
+
+.card-name-age-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
