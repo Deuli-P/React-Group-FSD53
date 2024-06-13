@@ -1,0 +1,88 @@
+.title-select{
+  font-size: 24px;
+  color: blue;
+}
+
+.title-failure{
+  font-size:32px;
+  color: red;
+}
+
+*{
+  list-style: none;
+}
+
+.guest-color-gray{
+  background-color: lightgray;
+}
+
+.guest-color-blue{
+  background-color: lightblue;
+}
+
+.message-valid{
+  padding: 8px;
+  border-radius: 15px;
+  background-color: greenyellow;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-text{
+  color: black;
+  font-size: 16px;
+}
+
+.guest-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 12px;
+  min-width: 250px;
+  
+  max-width: 400px;
+  height: 45px;
+}
+
+.btn-container{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.delete {
+  color: rgb(177, 114, 114);
+  background-color: red;
+}
+
+.confirm{
+  background-color: green;
+  color: white;
+}
+
+.edit{
+  background-color: green;
+  color: white;
+}
+
+.cancel{
+  background-color: rgb(177, 114, 114);
+  color: red;
+}
+
+.btn{
+  border-radius: 10%;
+  padding: 8px 16px;
+  color: black;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+
